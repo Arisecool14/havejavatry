@@ -1,0 +1,14 @@
+package hello;
+
+public class hello1 {
+	public static void main(String[] args){
+		System.out.print("this is a \"java\" program\n");
+		/*System.out.println("cool");*/
+		foo();
+		System.out.print("test");
+	}
+	public static void foo(){
+		System.out.println("this is a function member");
+	}
+
+}
